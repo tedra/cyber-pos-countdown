@@ -8,6 +8,17 @@
     <title><?php echo $languages[$_SESSION['country']]['title']; ?></title>
     <meta name="description" content="<?php echo $languages[$_SESSION['country']]['description']; ?>">
     <meta name="author" content="Cyberpunk 2077">
+
+    <meta property="og:title" content="<?php echo $languages[$_SESSION['country']]['title']; ?>" />
+    <meta property="og:url" content="https://unlock.cyberpunk.net" />
+    <meta property="og:description" content="<?php echo $languages[$_SESSION['country']]['description']; ?>">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?php echo $languages[$_SESSION['country']]['title']; ?>">
+    <meta name="twitter:description" content="<?php echo $languages[$_SESSION['country']]['description']; ?>">
+    <meta name="twitter:domain" content="https://unlock.cyberpunk.net">
+    <meta property="og:image" content="https://unlock.cyberpunk.net/images/social-thumbnail.jpg">
+    <meta name="twitter:image" content="https://unlock.cyberpunk.net/images/social-thumbnail.jpg">
+
     <link rel="stylesheet" href="/css/main.css">
     <script src="/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/mobile-detect@1.4.4/mobile-detect.min.js"></script>
