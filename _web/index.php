@@ -5,8 +5,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover">
-    <title>Cyberpunk 2077</title>
-    <meta name="description" content="Cyberpunk">
+    <title><?php echo $languages[$_SESSION['country']]['title']; ?></title>
+    <meta name="description" content="<?php echo $languages[$_SESSION['country']]['description']; ?>">
     <meta name="author" content="Cyberpunk">
     <link rel="stylesheet" href="/css/main.css">
     <script src="/js/main.js"></script>
