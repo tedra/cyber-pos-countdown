@@ -1,4 +1,4 @@
-<?php exit(); include('../_includes/setup.php'); ?><!doctype html>
+<?php include('../_includes/setup.php'); ?><!doctype html>
 
 <html lang="en">
 
