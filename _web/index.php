@@ -7,7 +7,7 @@
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover">
     <title><?php echo $languages[$_SESSION['country']]['title']; ?></title>
     <meta name="description" content="<?php echo $languages[$_SESSION['country']]['description']; ?>">
-    <meta name="author" content="Cyberpunk">
+    <meta name="author" content="Cyberpunk 2077">
     <link rel="stylesheet" href="/css/main.css">
     <script src="/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/mobile-detect@1.4.4/mobile-detect.min.js"></script>
