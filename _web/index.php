@@ -90,12 +90,6 @@
         </main>
         </div>
         <script>
-            //Check for mobile and hide warning message
-            var md = new MobileDetect(window.navigator.userAgent);
-            if (md.mobile()) {
-                document.getElementById("desktop-warning").style.display = "none";
-            }
-
             function totalSeconds(time){
                 var parts = time.split(':');
                 return parts[0] * 3600 + parts[1] * 60 + parts[2];
