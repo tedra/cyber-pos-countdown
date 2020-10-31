@@ -37,15 +37,14 @@
             })
         });
     </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-33315505-48"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-18QDVTJP52"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-33315505-48');
+    gtag('config', 'G-18QDVTJP52');
     </script>
 </head>
 
