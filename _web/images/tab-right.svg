@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 258.26 267.179">
+  <g id="tab-right" data-name="Group 17" transform="translate(-955.911 -459.847)">
+    <g id="Group_5" data-name="Group 5" transform="translate(664.507 461.347)">
+      <path id="tab" data-name="Path 4" d="M351.207,72.453V289.89H95.946V43.262H320.6Z" transform="translate(196.958 -43.262)" fill="none" stroke="#161615" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+     <path id="logo" data-name="Icon awesome-facebook" d="M98.743,49.951a49.091,49.091,0,1,0-56.76,48.791V64.228H29.512V49.951h12.47V39.07c0-12.377,7.324-19.214,18.541-19.214a75.105,75.105,0,0,1,10.99.964V32.968H65.322c-6.1,0-8,3.808-8,7.713v9.27H70.937L68.76,64.228H57.323V98.743A49.316,49.316,0,0,0,98.743,49.951Z" transform="translate(1034.575 535.237)"/>
+    <rect id="r24-bg" data-name="Rectangle 22" width="45.817" height="35.999" transform="translate(1147.504 691.026)" fill="#fcee0d"/>
+    <text id="r24" transform="translate(1170.135 711.481)" font-size="11" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-10.09" y="0">R25</tspan></text>
+  </g>
+</svg>

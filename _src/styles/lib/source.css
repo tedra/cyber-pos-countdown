@@ -1,0 +1,207 @@
+/* purgecss start ignore */
+
+@tailwind base;
+@tailwind components;
+
+/* purgecss end ignore */
+
+
+/* yellow: #fcee09 */
+
+@font-face {
+    font-family: 'BlenderPro-Bold';
+    src: url('/fonts/BlenderPro-Bold.eot?#iefix') format('embedded-opentype'), url('/fonts/BlenderPro-Bold.otf') format('opentype'), url('/fonts/BlenderPro-Bold.woff') format('woff'), url('/fonts/BlenderPro-Bold.ttf') format('truetype'), url('/fonts/BlenderPro-Bold.svg#BlenderPro-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BlenderPro-Thin';
+    src: url('/fonts/BlenderPro-Thin.eot?#iefix') format('embedded-opentype'), url('/fonts/BlenderPro-Thin.otf') format('opentype'), url('/fonts/BlenderPro-Thin.woff') format('woff'), url('/fonts/BlenderPro-Thin.ttf') format('truetype'), url('/fonts/BlenderPro-Thin.svg#BlenderPro-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
+html,
+body,
+main {
+    @apply antialiased;
+}
+
+body {
+    font-family: 'BlenderPro-Bold', sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 640px) {
+        min-height: 100vh;
+    }
+}
+
+.content {
+    flex: 1 0 auto;
+    max-width: 336px;
+    width: 100%;
+    margin: auto;
+    @media (min-width: 640px) {
+        max-width: 752px;
+    }
+}
+
+.footer {
+    flex-shrink: 0;
+    background-image: url('/images/razor-bottom.svg');
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    padding-bottom: 74px;
+    padding-top: 24px;
+    .inner {
+        width: 100%;
+        max-width: 336px;
+        margin: auto;
+        @media (min-width: 640px) {
+            max-width: 548px;
+            width: 100%;
+        }
+    }
+    .copy {
+        display: inline;
+        @media (min-width: 640px) {
+            display: block;
+        }
+    }
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'BlenderPro-Bold', sans-serif;
+}
+
+h4 {
+    /*font-family: 'BlenderPro-Thin', sans-serif;*/
+    font-family: 'BlenderPro-Bold', sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 38px;
+    @media (min-width: 640px) {
+        font-size: 68px;
+        line-height: 60px;
+    }
+}
+
+h3 {
+    font-size: 18px;
+    @media (min-width: 640px) {
+        font-size: 22px;
+    }
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+small {
+    font-size: 12px;
+    display: block;
+}
+
+.logo-gi-wrapper {
+    width: 90px;
+}
+
+.logo-cyberpunk-wrapper {
+    width: 200px;
+    @media (min-width: 640px) {
+        width: 302px
+    }
+}
+
+.detail-header {
+    width: 245px;
+    @media (min-width: 640px) {
+        width: 528px;
+    }
+}
+
+.spacer {
+    min-width: .5rem;
+}
+
+.tab-wrapper {
+    max-width: 157px;
+    width: 100%;
+    @media (min-width: 640px) {
+        max-width: 256px;
+    }
+}
+
+#tab-left,
+#tab-right {
+    width: 100%;
+    #tab {
+        fill: #fcee09;
+        transition: fill .25s ease;
+    }
+    &:hover {
+        #logo {
+            fill: #fcee09;
+        }
+        #tab {
+            fill: black;
+        }
+    }
+}
+
+.tab-countdown {
+    width: 102px;
+    height: 102px;
+    background: transparent url('/images/tab-countdown.svg') no-repeat right top;
+    @apply bg-contain;
+    @media (min-width: 640px) {
+        width: 220px;
+        height: 220px;
+    }
+    h4 {
+        font-family: 'BlenderPro-Thin', sans-serif;
+        margin-top: 12px;
+        @media (min-width: 640px) {
+            margin-top: 22px;
+            font-size: 36px;
+        }
+    }
+    span {
+        font-size: 70px;
+        line-height: 50px;
+        @media (min-width: 640px) {
+            font-size: 160px;
+            line-height: 116px;
+        }
+    }
+}
+
+#progress {
+    height: 6px;
+    width: 50%;
+    @media (min-width: 640px) {
+        height: 14px;
+    }
+}
+
+#view-select-platform {
+    max-width: 548px;
+    @apply mx-auto;
+}
+
+@tailwind utilities;
