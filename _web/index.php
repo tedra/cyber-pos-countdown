@@ -79,42 +79,11 @@
                         </div>
 
                     </div>
-                    <div id="view-select-platform" class="hidden">
-                        <h1 class="uppercase my-2">Select Platform</h1>
-                        <img class="detail-header mx-auto mb-10" src="/images/detail-header-bottom.svg">
-                        <div id="desktop-warning" class="desktop-warning">
-                            <div class="flex justify-center items-center mb-12">
-                                <div class="mr-2"><img src="images/warning.svg" alt="warning"></div>
-                                <div class="uppercase text-sm">Open this page on a mobile device</div>
-                            </div>
-                        </div>
-                        <div class="flex justify-between relative px-1">
-                            <div class="tab-wrapper">
-                                <a href="">
-                                    <?php echo file_get_contents("images/tab-left.svg"); ?>
-                                </a>
-                                <div class="uppercase text-xs sm:text-sm"><a href="">OPEN INSTAGRAM CAMERA</a></div>
-                            </div>
-                            <div class="spacer"></div>
-                            <div class="tab-wrapper">
-                                <a href="">
-                                    <?php echo file_get_contents("images/tab-right.svg"); ?>
-                                </a>
-                                <div class="uppercase text-xs sm:text-sm"><a href="">OPEN FACEBOOK CAMERA</a></div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <!-- /content -->
             <footer class="footer">
                 <div class="inner">
-                   <!-- <div class="sm:flex justify-center">
-                        <div class="terms mb-2 sm:mx-2 sm:mb-4"><a href="https://regulations.cdprojektred.com/en/privacy_policy" target="_blank">Terms of Use & Privacy Policy &lt;</a>
-                        </div>
-                        <div class="terms mb-2 sm:mx-2 sm:mb-4"><a href="https://regulations.cdprojektred.com/en/cookie_policy/" target="_blank">Cookie Declaration &lt;</a>
-                        </div>
-                    </div>-->
                     <div>
                         <small><?php echo $languages[$_SESSION['country']]['copyright1']; ?> <div class="copy"><?php echo $languages[$_SESSION['country']]['copyright2']; ?></div></small>
                     </div>
