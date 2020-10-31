@@ -23,7 +23,7 @@ module.exports = merge(webpackConfig, {
         },
         proxy: {
             '/': {
-                target: "http://cyberpunk-qr.test/", // local server
+                target: "http://cyber-pos-countdown.test/", // local server
                 changeOrigin: true,
                 secure: false
             }
